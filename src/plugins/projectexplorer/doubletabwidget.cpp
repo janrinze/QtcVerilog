@@ -43,6 +43,7 @@
 #include <QToolTip>
 
 #include <QDebug>
+#include <QStyleOption>
 
 using namespace ProjectExplorer::Internal;
 using namespace Utils;

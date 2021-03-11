@@ -745,7 +745,9 @@ QList<Abi::OSFlavor> Abi::flavorsForOs(const Abi::OS &o)
     }
     return result;
 }
-
+//#ifndef QTC_CPU
+#define QTC_CPU Abi::ArmArchitecture
+//#endif
 Abi Abi::hostAbi()
 {
     Architecture arch = QTC_CPU; // define set by qmake
